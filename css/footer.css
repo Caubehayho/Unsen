@@ -69,7 +69,7 @@
     font-size: 13px;
     color: #868686;
     font-family: 'Poppin-Regular';
-    margin-bottom: 35px;
+    margin-bottom: 23px;
 }
 
 .footer_input_wrap{
@@ -99,6 +99,7 @@
     width: 85%;
     background-color: transparent;
     z-index: 3;
+    padding: 5px 0;
 }
 
 .footer_input_wrap input:valid ~span,
@@ -117,16 +118,25 @@
     width: 15%;
     display: flex;
     justify-content: flex-end;
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Poppins-medium';
+    align-items: center;
 }
 
-.footer_input_wrap button a{
+.footer_input_wrap input::placeholder{
+    color: #868686;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+/* .footer_input_wrap button a{
     position: absolute;
     top:-5%;
     color: #000000;
     font-size: 12px;
     font-family: 'Poppins-medium';
     display: block;
-}
+} */
 
 .footer_social{
     margin-top: 39px;
